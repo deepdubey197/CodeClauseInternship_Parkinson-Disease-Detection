@@ -3,3 +3,5 @@ The Parkinson's Disease detection project utilizing machine learning aims to dev
 
 ### To test this app just download all the files in a folder open your terminal and type ' python app.py '
 
+
+
