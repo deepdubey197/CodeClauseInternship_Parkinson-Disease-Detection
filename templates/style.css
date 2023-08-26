@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500;10..48,600;10..48,700&family=Noto+Sans:wght@200;300;400;500;600;900&family=Poppins:wght@500;600;700&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.heading{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+
+.navbar{
+    display: flex;
+    background-color: black;
+    margin-top: 20px;
+    overflow: hidden;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    
+    height: 100px;
+    margin: 0;
+    
+    
+}
+
+.links{
+    padding-top: 30px;
+    margin-left: 400px;
+    font-size: 23px;
+    
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #0088ff;
+    border-radius: 5px;
+    border-width: 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: rgb(26, 84, 185);
+    cursor: pointer;
+    
+}
+
+.input-group {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    display: block;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.two{
+    margin-right: 24px;
+}
+
+.two label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.two input {
+    display: block;
+    font-size: 16px;
+}
+
+
+.prediction{
+    padding-top: 80px;
+    padding-left: 80px;
+    display: inline-block;
+}
